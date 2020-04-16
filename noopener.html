@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Noopener Sample</title>
+</head>
+
+<body>
+  <main>
+    <h1>noopenerページ</h1>
+    <code>
+      if (window.opener) {
+        window.opener.location = "https://example.com";
+      }
+    </code>
+  </main>
+</body>
+<script>
+  if (window.opener) {
+    window.opener.location = "https://example.com";
+  }
+</script>
+</html>
